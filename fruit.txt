@@ -1,0 +1,5 @@
+day_495 apple      4 
+day_496 banana     5 
+day_497 apple      6 
+day_498 banana     10 
+day_499 apple      5 

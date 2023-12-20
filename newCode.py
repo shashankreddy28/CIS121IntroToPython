@@ -5,3 +5,4 @@ def pow(base, exp):
         return base * pow(base,exp-1)
 
 print(pow(2,5))
+

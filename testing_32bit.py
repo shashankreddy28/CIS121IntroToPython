@@ -1,4 +1,4 @@
-import math
+
 def max_bit_test( base = 2, exponent = 31):
     total = 0
     for i in range(exponent):

@@ -22,11 +22,9 @@ class Rectangle(TwoDimension):
         return 2*(self.sideLength1+self.sideLength2)
 class square(Rectangle):
     def __init__(self,sideLenght):
-        self.sideLength=sideLenght
-    def getArea(self):
-        return self.sideLength**2
-    def getPerimeter(self):
-        return 4 * self.sideLength
+        super().__init__(sideLenght, sideLenght)
+
+
 class circle(TwoDimension):
     def __init__(self,radius):
         self.radius=radius
